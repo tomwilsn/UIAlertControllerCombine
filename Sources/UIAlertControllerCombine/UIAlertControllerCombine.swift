@@ -38,6 +38,8 @@ public extension UIAlertController {
     enum ConfimationEnum: CaseIterable {
         case Cancel, Confirm
     }
+    
+    var subscriptions = Set<AnyCancellable>()
 
     UIAlertController(title: "Something Alarming",
                       message: "Are you sure you want to do this?",
