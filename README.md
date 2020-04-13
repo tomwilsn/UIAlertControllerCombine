@@ -5,7 +5,7 @@ An extension for UIAlertController that will output the result as a Future of an
 ## Example
 
 ```
-enum ConfimationEnum: Iterable {
+enum ConfimationEnum: CaseIterable {
     case Cancel, Confirm
 }
 

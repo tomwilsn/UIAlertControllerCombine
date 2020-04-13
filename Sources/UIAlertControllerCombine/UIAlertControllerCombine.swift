@@ -35,7 +35,7 @@ public extension UIAlertController {
     Example:
      
     ```
-    enum ConfimationEnum: Iterable {
+    enum ConfimationEnum: CaseIterable {
         case Cancel, Confirm
     }
 
